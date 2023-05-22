@@ -1,15 +1,18 @@
 
 import arun from './assets/suryAV.jpeg'
+// import Myeducation from './Myeducation'
+// import Myskills from './Myskills'
+// import Contactme from './Contactme'
 
 const Aboutme = () => {
   return (
     <div>
-    <div className='flex bg-[#161616] h-[550px] w-[100%] gap-10'>
+    <div className='flex bg-[#161616] md:h-[560px] h-[560px] w-[100%] gap-10'>
       <div className=' '>
-      <img alt='surya' className='h-82 w-72 rounded-full mt-[60px] ml-40  ' src={arun}/>
+      <img alt='surya' className=' h-[400px] w-70 rounded-full mt-[80px]  ml-[150px] ' src={arun}/>
       </div>
-      <div className='mt-[80px] ml-[80px] transition-transform'>
-      <h1  className=' text-white text-[30px] font-semibold'>Surya varma</h1>
+      <div className='mt-[90px] ml-[60px] '>
+      <h1  className=' text-white text-[50px] font-semibold'>Surya varma</h1>
       <h1 className=' text-white text-[20px] mt-3'>Junior Front-end developer</h1>
       <p className=' text-white text-[20px] mt-3'>Hi,i am Surya varma and i am from vizainagaram.<br/>Now i am doing internship in  <a href="https://flyerssoft.com/" className=' text-violet-900 hover:underline'>Flyers soft </a> <br/>
       in front-end development. </p>
@@ -21,6 +24,7 @@ const Aboutme = () => {
       
       </div>
       </div>
+    
       </div>
   )
 }

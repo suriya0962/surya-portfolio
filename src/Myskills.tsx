@@ -2,11 +2,11 @@
 
 const Myskills = () => {
   return (
-    <div className=" bg-[#161616] h-[550px] w-[100%] ">
-        <div className="flex gap-10">
+    <div className=" bg-[#161616] h-[560px] w-[100%] ">
+        <div className="flex gap-10 ">
      <div className="bg-[#161616] shadow-xl h-[60px] w-[25%] ml-[50px] mt-[50px] flex gap-4" >
           
-          <div>
+          <div >
         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/926px-C_Programming_Language.svg.png'
           className="h-[50px] bg-white w-[40px] mt-[5px]"/>
           </div>
