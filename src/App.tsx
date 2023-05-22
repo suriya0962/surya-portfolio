@@ -17,8 +17,10 @@ function App() {
       <div className=' bg-[#161616] h-[auto] w-[100%] bg-cover'>
       
         <BrowserRouter>
+       
         <div className='bg-[#161616] h-[auto] w-[100%]'>
         <Navlink/>
+        <Home/>
        
         <Routes>
         <Route path='/home' element={<Home/>}/>

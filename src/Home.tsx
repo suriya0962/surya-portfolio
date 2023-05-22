@@ -6,7 +6,7 @@ import Myskills from "./Myskills"
 
 const Home = () => {
   return (
-    <div className="h-[auto] w-[100%]">
+    <div className="h-[auto] w-[100%] bg-[#161616]">
        
         <Aboutme/>
        <div> <h1 className="text-white font-bold text-[40px] flex justify-center mt-[35px] underline">My Education</h1><Myeducation/></div> 
