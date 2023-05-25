@@ -7,9 +7,18 @@ import Myskills from './Myskills'
 import Contactme from './Contactme'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './Home'
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
 
 function App() {
-
+  useEffect(()=>{
+    Aos.init({
+      duration:1200,
+      offset:100,
+      disable:"mobile",
+    });
+  },[]);
   return (
     <>
       <div className=' bg-[#161616] h-[auto] w-[100%]  md:bg-cover bg-cover '>

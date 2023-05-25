@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 const Port = () => {
   return (
     <div>
-      <div className='flex md:justify-between  bg-black font-semibold '>
+      <div className='flex md:justify-between  bg-black font-semibold h-auto w-[100%]'>
       <div className='flex mt-2'>
         <img src='https://www.sportingvote.com/wp-content/uploads/2018/06/cropped-sv_logo_large-1.png' className='md:h-[40px] h-[10px] w-[10px] md:w-[40px] ml-2 mb-1'/>
         <h1 className='ml-1 text-[20px]  text-white mt-2'>Surya varma</h1>
